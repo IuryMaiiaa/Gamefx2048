@@ -15,5 +15,12 @@ public class BoardTest {
 		Tile t1= new Tile(11);
 		assertEquals("11", t1.getValue().toString());
 	}
+	
+	@Test
+	@Category(game2048test.BoardTest.class)
+	public void text1() {
+		Tile t1= new Tile(11);
+		assertEquals("11", t1.getValue().toString());
+	}
 
 }
