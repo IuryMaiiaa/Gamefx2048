@@ -1,0 +1,12 @@
+game2048\SessionManager.class
+game2048\Tile.class
+game2048\Direction.class
+game2048\Game2048.class
+game2048\GridOperator.class
+game2048\Location.class
+game2048\Board.class
+game2048\Board$Overlay.class
+game2048\GameManager.class
+game2048\GamePane.class
+game2048\RecordManager.class
+test\java\BoardTest.class
