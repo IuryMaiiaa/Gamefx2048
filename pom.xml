@@ -139,7 +139,7 @@
 						<id>check</id>
 						<phase>test</phase>
 						<goals>
-							<goal>check</goal>
+							<goal>checkstyle</goal>
 						</goals>
 						<configuration>
 							<checkstyleRules>
@@ -148,6 +148,12 @@
 									<module name="TreeWalker">
 										<module name="AnnotationUseStyle" />
 									</module>
+								</module>
+								<module name="AbbreviationAsWordInName">
+									<property name="tokens" value="VARIABLE_DEF,CLASS_DEF" />
+									<property name="ignoreStatic" value="false" />
+									<property name="allowedAbbreviationLength" value="1" />
+									<property name="allowedAbbreviations" value="XML,URL" />
 								</module>
 							</checkstyleRules>
 						</configuration>
